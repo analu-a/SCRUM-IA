@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    background-image: url(./img/background.png);
+}
+
+.login-lateral{
+    background-color: #1A6B63;
+    height: 100vh;
+    width: 48vw;
+    background: rgb(26,107,99);
+    background: linear-gradient(90deg, rgba(26,107,99,1) 47%, rgba(210,234,255,0) 83%);
+}
+.info{
+    height: 100vh;
+    width: 23vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+
+h1{
+    color: #104944;
+    font-size: 3rem;
+    font-family: "Podkova", serif;
+}
+
+.title{
+    height: 10vh;
+    width: 20vw;
+}
+
+input{
+    height: 7vh;
+    width: 20vw;
+    border-radius: 20px;
+    border: none;
+    background-color: #93C5AD;
+    outline: none;
+    color: #104944;
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: "Podkova", serif;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    padding-left: 20px;
+    color: #9CDFCF;
+    font-family: "Podkova", serif;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    height: 7vh;
+    width: 10vw;
+    border-radius: 14px;
+    border: none;
+    background-color: #104944;
+    color: #9CDFCF;
+    font-size: 18px;
+  font-family: "Podkova", serif;
+
+}
