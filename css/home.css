@@ -1,0 +1,18 @@
+body{
+    background-image: url(../img/bg-img.png);
+    background-color: black;
+}
+
+textarea{
+    background-color: #104944;
+    display: flex;
+    height: 20vh;
+    width: 26vw;
+   
+}
+
+.saida{
+    display: flex;
+    gap: 10px;
+ 
+}

@@ -29,6 +29,9 @@ h1{
 .title{
     height: 10vh;
     width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 input{
